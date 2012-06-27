@@ -1,0 +1,67 @@
+body 
+{
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+  background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.65)), color-stop(1, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+}
+
+body.login {
+  position: relative;
+  background-color: #fff;
+  background-image: url(../img/grid-18px-masked.png);
+  background-repeat: repeat-x;
+  background-position: 0 40px;
+}
+
+.navbar .brand { color:White; }
+
+body.zh_cn { padding-top:50px; }
+body.en_us{ padding-top:68px;}
+a{ cursor:pointer}
+a:hover {text-decoration:none;}
+input.placeholder{color: #777;}
+footer {margin-bottom:10px;}
+.mlt5 { margin-left:5px;}
+.mrt5 { margin-right:5px;}
+.dropdown-menu li:hover i { background-image: url("../img/glyphicons-halflings-white.png");}
+
+
+form.thingking textarea {height: 30px;}
+form.thingking button {padding: 10px 11px;}
+
+.hero-unit { padding-top: 30px; margin-bottom:0;background-color: transparent;}
+.hero-unit h1{margin-bottom:23px;}
+.hero-unit p.en_us{ font-size:16px;}
+
+.well { background-color: #F9F9F9;} /**/
+.login .well { box-shadow: 0 1px 3px #DDD; background-color: #FCFCFC;}
+
+#login-form  .input{ width:90%;}
+#reg-form h2 { margin-bottom:5px;}
+
+#roadmap span.small {font-size:18px;}
+#roadmap ul { margin:17px 35px;}
+#roadmap ul li { margin:3px 0px;}
+
+#publisher span.content { z-index:1;width:350px;}
+#publisher textarea.content { position:absolute; height:18px; width:350px;overflow:hidden; word-break:break-all; z-index:99;}
+#publisher a.dropdown-toggle {border: 1px solid #CCCCCC; border-radius: 3px 3px 3px 3px;margin:0px 2px; padding:6px 10px; color:#555555;}
+#publisher b.caret {border-bottom-color: #222;border-top-color: #222;}
+#publisher ul.dropdown-menu{ min-width:65px;}
+
+ul.dropdown-menu li.selected { display:none; }
+
+input.error {border-color: #B94A48;}
+
+#posts { /*min-height:200px;*/}
+
+div.note div.item{padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #DDD;}
+
+div.item a.remove { visibility:hidden; margin-left:15px;}
+div.item:hover a.remove { visibility:visible; }
+
+button.close { font-weight:normal;}
