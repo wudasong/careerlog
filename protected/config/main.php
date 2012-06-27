@@ -22,7 +22,7 @@ return array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'wds123456',
+			'password'=>'password',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			//'ipFilters'=>array('127.0.0.1','::1'),
 		)
@@ -64,10 +64,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=icareertrack',
+			'connectionString' => 'mysql:host=localhost;dbname=careerlog',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'wds123456',
+			'password' => 'password',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
